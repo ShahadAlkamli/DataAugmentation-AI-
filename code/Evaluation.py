@@ -27,7 +27,7 @@ def load_and_resize_images(folder, target_size=(100, 100)):
     return np.array(images), np.array(labels)
 
 # Load and resize images from the TRAIN folder
-train_folder = '/Users/shahadsaeed/Desktop/melanoma_cancer_dataset/train'
+train_folder = '/Users/shahadsaeed/Desktop/melanoma_cancer_dataset/augmenetd_train'
 X_train, y_train = load_and_resize_images(train_folder)
 
 # Load and resize images from the TEST folder
