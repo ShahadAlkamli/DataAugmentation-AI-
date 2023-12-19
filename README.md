@@ -1,9 +1,5 @@
 # Evaluating the Impact of Data Augmentation on Medical Image Classification
 
-This repository contains code for a Cancer Classification Project, focusing on melanoma skin cancer images.
-
-## Project Overview
-
 This repository explores the impact of data augmentation on medical image classification, specifically focusing on the classification of melanoma skin cancer images. The project utilizes a dataset obtained from Kaggle, consisting of two main folders: TRAIN (9600 images) and TEST (1000 images). Each folder includes subfolders for malignant and benign cases.
 **[Link to the Dataset](https://www.kaggle.com/datasets/hasnainjaved/melanoma-skin-cancer-dataset-of-10000-images)**.
 
