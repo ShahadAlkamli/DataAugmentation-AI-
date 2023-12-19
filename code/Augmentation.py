@@ -5,7 +5,7 @@ import os
 train_data_dir = '/Users/shahadsaeed/Desktop/melanoma_cancer_dataset/train'
 
 # Set the path to store augmented images on the desktop
-augmented_data_dir = '/Users/shahadsaeed/Desktop/augmented_data'
+augmented_data_dir = '/Users/shahadsaeed/Desktop/augmented_images'
 
 # Create an ImageDataGenerator for augmentation
 datagen = ImageDataGenerator(
