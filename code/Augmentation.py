@@ -43,7 +43,7 @@ def augment_data(class_folder, class_name):
             array_to_img(augmented_img).save(augmented_img_path)
 
 # Augment the malignant class in the training dataset
-augment_data('malignant', 'malignant_augmented')
+augment_data('malignant', 'malignant')
 
 # Augment the benign class in the training dataset
-augment_data('benign', 'benign_augmented')
+augment_data('benign', 'benign')
