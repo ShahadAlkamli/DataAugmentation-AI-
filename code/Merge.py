@@ -1,7 +1,7 @@
 import os
 import shutil
 
-# Set the path to your dataset
+# Set the path to the dataset
 base_path = '/Users/shahadsaeed/Desktop/melanoma_cancer_dataset/'
 train_path = os.path.join(base_path, 'train')
 augmented_train_path = os.path.join(base_path, 'augmented_images')
