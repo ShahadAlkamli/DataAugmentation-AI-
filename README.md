@@ -2,10 +2,6 @@
 
 This repository contains code for a Cancer Classification Project, focusing on melanoma skin cancer images.
 
-# Cancer Classification Project
-
-This repository contains code for a Cancer Classification Project, focusing on melanoma skin cancer images.
-
 ## Project Overview
 
 Skin cancer is a critical health concern, and early detection is vital for effective treatment. This project leverages machine learning techniques to classify melanoma skin cancer images. The dataset used for this project was obtained from Kaggle, consisting of two main folders: `TRAIN` (9600 images) and `TEST` (1000 images). Each folder includes subfolders for malignant and benign cases.
