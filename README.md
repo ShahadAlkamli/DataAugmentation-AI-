@@ -24,7 +24,7 @@ This repository contains code for a Cancer Classification Project, focusing on m
 
 1. Clone this repository:
     ```bash
-    git clone https://github.com/SahhadAlkamli/IT504.git
+    git clone https://github.com/ShahadAlkamli/IT504.git
     cd IT504
     ```
 
@@ -39,5 +39,3 @@ This repository contains code for a Cancer Classification Project, focusing on m
 ## Contributing
 Contributions are welcome! Feel free to open issues or submit pull requests.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
