@@ -1,31 +1,43 @@
-# Melanoma Skin Cancer Classification
+# Cancer Classification Project
 
-## Overview
+This repository contains code for a Cancer Classification Project, focusing on melanoma skin cancer images.
 
-This repository contains code for the classification of melanoma skin cancer images using various machine learning classifiers. The dataset used for this project was obtained from Kaggle and consists of two folders: `TRAIN` (9600 images) and `TEST` (1000 images). Each folder includes subfolders for malignant and benign images.
+## How to Run
 
-## Code Structure
+1. **Data Augmentation:**
+    - Navigate to the `code/` directory.
+    - Run `Augmentation.py` to perform data augmentation on the original images.
 
-### 1. Image Loading and Preprocessing
-- Images are loaded and resized using the `load_and_resize_images` function.
-- Principal Component Analysis (PCA) is applied for dimensionality reduction.
+2. **Merging Original and Augmented Data:**
+    - Run `Merge.py` to merge the original and augmented datasets for training.
 
-### 2. Classifiers
-- Support Vector Machine (SVM)
-- Decision Tree
-- Random Forest
-- Naive Bayes
+3. **Classifier Evaluation:**
+    - Run `Evaluation.py` to train and evaluate classifiers on the merged dataset.
 
-### 3. Training and Evaluation
-- Classifiers are trained using the preprocessed data.
-- The `melanoma_classification.py` script evaluates classifiers on the `TEST` set using metrics such as accuracy, classification report, and confusion matrices.
-- Confusion matrices are visualized using the `plot_confusion_matrix` function.
+## Folder Structure
 
-### 4. Data Augmentation
-- Data augmentation is performed on the `TRAIN` set using the `ImageDataGenerator` from TensorFlow.
-- The `augmentation.py` script is responsible for data augmentation.
+- `code/`: Contains the project's main scripts.
+- `augmented_images/`: Stores augmented images generated during data augmentation.
+- `results_and_analysis/`: Holds results and analysis of experiments.
 
-### 5. Augmented Data Evaluation
-- The augmented data is reevaluated using the same classifiers for comparison.
+## Reproducing Experiments
 
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/SahhadAlkamli/IT504.git
+    cd IT504
+    ```
 
+2. Install dependencies:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. Run experiments:
+    - Follow the steps under "How to Run."
+
+## Contributing
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
